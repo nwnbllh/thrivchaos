@@ -12,13 +12,13 @@ const ReqAndBuyPage = () => {
               <p className="text-center animate__animated animate__fadeInUp">Haii, kamu bisa drop Topik yang mau kamu bahas di form ini ya.</p>
               <form action="https://formsubmit.co/najwanabilah2216@gmail.com" method="POST" class="mt-10">
                 <div className="text-center mb-2 fw-bold animate__animated animate__fadeInUp">                  
-                  <input type="text" className="form-control" id="name" placeholder="Nama Lengkap" />
+                  <input type="text" className="form-control" name="name" placeholder="Nama Lengkap" required/>
                 </div>
                 <div className="text-center mb-2 fw-bold animate__animated animate__fadeInUp"> 
-                  <input type="email" className="form-control" id="email" placeholder="Your Email" />
+                  <input type="email" className="form-control" name="email" placeholder="Your Email" required/>
                 </div>
                 <div className="text-center mb-2 fw-bold animate__animated animate__fadeInUp"> 
-                  <textarea className="form-control" id="message" rows="4" placeholder="Your Message"></textarea>
+                  <textarea className="form-control" name="message" rows="4" placeholder="Your Message"required></textarea>
                 </div>
                 <button type="submit" className="btn btn-dark-blue w-100 text-center mb-3 fw-bold animate__animated animate__fadeInUp">
                   Kirim</button>

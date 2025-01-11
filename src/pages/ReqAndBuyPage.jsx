@@ -11,7 +11,7 @@ const ReqAndBuyPage = () => {
             <Col>
               <h1 className="text-center fw-bold animate__animated animate__fadeInUp">Request Topik Podcast</h1>
               <p className="text-center animate__animated animate__fadeInUp">Haii, kamu bisa drop Topik yang mau kamu bahas di form ini ya.</p>
-              <form action="https://formspree.io/f/najwanabilah2216@gmail.com" method="post" class="mt-10">
+              <form action="https://formspree.io/f/najwanabilah2216@gmail.com" method="POST" class="mt-10">
                 <div className="text-center mb-2 fw-bold animate__animated animate__fadeInUp">                  
                   <input type="text" className="form-control" id="name" placeholder="Nama Lengkap" />
                 </div>

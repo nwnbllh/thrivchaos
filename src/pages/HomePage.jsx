@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import HeroImage from "../assets/img/hero.png";
+import Sound from "../assets/audio/thrivchaos.mp3";
 
 import { kelasTerbaru, dataSwiper } from "../data/index";
 import FaqComponents from "../components/FaqComponents";
@@ -25,7 +26,7 @@ const HomePage = () => {
               </h1>
               <p className="mb-4 animate__animated animate__fadeInUp animate__delay-2s">Thrivchaos adalah podcast yang membahas isu-isu terkini dengan gaya santai dan menghibur. Fokusnya pada trending topic internet, mengajak audiens berpikir kritis, dan membantu pendengar tetap mengikuti tren serta isu sosial yang berkembang.</p>
               <figure class="wp-block-audio me-2 mb-xs-0 mb-2 animate__animated animate__fadeInUp animate__delay-2s" >
-                <audio controls src="/assets/audio/thrivchaos.mp3"></audio>
+                <audio controls src={Sound}></audio>
               </figure>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">

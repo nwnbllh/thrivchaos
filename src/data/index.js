@@ -177,6 +177,7 @@ export const kelasTerbaru = [
     title: "Introduction Our New Project Podcast | Thrivchaos",
     buy: "Play Podcast",
     delay: "",
+    link: "https://youtu.be/wBy0H6qMtCQ?si=nLSpvUtK3eQeqeEF",
   },
   {
     id: 2,
@@ -189,6 +190,7 @@ export const kelasTerbaru = [
     title: "EP—01 | Kenapa #TOLAKRUUTNI Marak banget di sosial Media?🧐",
     buy: "Play Podcast",
     delay: "200",
+    link: "https://youtu.be/asMjqu02OeE?si=s4pIOESsXwJtEjlE",
   },
   {
     id: 3,

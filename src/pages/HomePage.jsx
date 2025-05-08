@@ -50,8 +50,8 @@ const HomePage = () => {
                   <img src={kelas.image} alt="unsplash.com" className="w-100 mb-5 rounded-top" />
                   <h5 className="mb-5 px-3">{kelas.title}</h5>
                   <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
-                    <p className="m-0 text-primary fw-bold">{kelas.price}</p>
-                    <a href="https://youtu.be/wBy0H6qMtCQ?si=2E8oswQwY41tvM1d" target="_blank" rel="noopener noreferrer">
+                  <p className="m-0 text-primary fw-bold">{kelas.price}</p>
+                  <a href={kelas.link} target="_blank" rel="noopener noreferrer">
                     <button className="btn btn-dark-blue rounded-1">{kelas.buy}</button></a>
                   </div>
                 </Col>

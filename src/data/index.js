@@ -370,7 +370,7 @@ export const testimonial = [
     desc: "Apart from being an accounting student, Marciano Reynald Eriyanto is also part of thrivchaos podcast. In which, he serves as a social media spesialist and editor in our show",
     image: People2,
     name: "Marciano Reynald Eriyanto",
-    skill: "Social Media Spesialist & Editor",
+    skill: "Financial & Secretary",
   },
   {
     id: 6,

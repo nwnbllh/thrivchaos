@@ -1,0 +1,483 @@
+import KelasImage1 from "../assets/img/kelas/kelas-1.jpg";
+import KelasImage2 from "../assets/img/kelas/kelas-2.jpg";
+import KelasImage3 from "../assets/img/kelas/kelas-3.jpg";
+import KelasImage4 from "../assets/img/kelas/kelas-4.jpg";
+import KelasImage5 from "../assets/img/kelas/kelas-5.jpg";
+import KelasImage6 from "../assets/img/kelas/kelas-6.jpg";
+import KelasImage7 from "../assets/img/kelas/kelas-7.jpg";
+import KelasImage8 from "../assets/img/kelas/kelas-8.jpg";
+import KelasImage9 from "../assets/img/kelas/kelas-9.jpg";
+
+import People1 from "../assets/img/testimonial/people-1.jpg";
+import People2 from "../assets/img/testimonial/people-2.jpg";
+import People3 from "../assets/img/testimonial/people-3.jpg";
+import People4 from "../assets/img/testimonial/people-4.jpg";
+import People5 from "../assets/img/testimonial/people-5.jpg";
+import People6 from "../assets/img/testimonial/people-6.jpg";
+
+import Product1 from "../assets/img/product/product-1.png";
+import Product2 from "../assets/img/product/product-2.png";
+import Product3 from "../assets/img/product/product-3.png";
+import Product4 from "../assets/img/product/product-4.png";
+import Product5 from "../assets/img/product/product-5.png";
+import Product6 from "../assets/img/product/product-6.png";
+import Product7 from "../assets/img/product/product-7.png";
+import Product8 from "../assets/img/product/product-8.png";
+
+export const navLinks = [
+  {
+    id: 1,
+    path: "",
+    text: "Home",
+  },
+  {
+    id: 2,
+    path: "/ourvideo",
+    text: "Our video",
+  },
+  {
+    id: 3,
+    path: "/aboutus",
+    text: "About Us",
+  },
+  {
+    id: 4,
+    path: "/faq",
+    text: "FAQ",
+  },
+  {
+    id: 5,
+    path: "/reqandbuy",
+    text: "Request & Buy",
+  },
+];
+
+export const ourVideo = [
+  {
+    id: 1,
+    image: KelasImage1,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Introduction Our New Project Podcast | Thrivchaos",
+    buy: "Play Podcast",
+    delay: "1300",
+    link: "https://youtu.be/wBy0H6qMtCQ?si=nLSpvUtK3eQeqeEF",
+  },  
+  {
+    id: 2,
+    image: KelasImage2,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "EP—01 | Kenapa #TOLAKRUUTNI Marak banget di sosial Media?🧐",
+    buy: "Play Podcast",
+    delay: "1600",
+    link: "https://youtu.be/asMjqu02OeE?si=s4pIOESsXwJtEjlE",
+  },
+  {
+    id: 3,
+    image: KelasImage3,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "1900",
+  },
+  {
+    id: 4,
+    image: KelasImage4,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "2200",
+  },
+  {
+    id: 5,
+    image: KelasImage5,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "300",
+  },
+  {
+    id: 6,
+    image: KelasImage6,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "600",
+  },
+  {
+    id: 7,
+    image: KelasImage7,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "",
+  },
+  {
+    id: 8,
+    image: KelasImage8,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "300",
+  },
+  {
+    id: 9,
+    image: KelasImage9,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "600",
+  },
+];
+
+export const kelasTerbaru = [
+  {
+    id: 1,
+    image: KelasImage1,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    title: "Introduction Our New Project Podcast | Thrivchaos",
+    buy: "Play Podcast",
+    delay: "",
+  },
+  {
+    id: 2,
+    image: KelasImage2,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "EP—01 | Kenapa #TOLAKRUUTNI Marak banget di sosial Media?🧐",
+    buy: "Play Podcast",
+    delay: "200",
+  },
+  {
+    id: 3,
+    image: KelasImage3,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "400",
+  },
+  {
+    id: 4,
+    image: KelasImage4,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "600",
+  },
+  {
+    id: 5,
+    image: KelasImage5,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "200",
+  },
+  {
+    id: 6,
+    image: KelasImage6,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    title: "Next Project on youtube chanel | Thrivchaos Podcast",
+    buy: "Play Podcast",
+    delay: "400",
+  },
+];
+
+export const produkBaru = [
+  {
+    id: 1,
+    image: Product1,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    price: "200k",
+    buy: "Beli Disini",
+    delay: "",
+  },
+  {
+    id: 2,
+    image: Product2,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    price: "350k",
+    buy: "Beli Disini",
+    delay: "200",
+  },
+  {
+    id: 3,
+    image: Product3,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    price: "1.000k",
+    buy: "Beli Disini",
+    delay: "400",
+  },
+  {
+    id: 4,
+    image: Product4,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    price: "350k",
+    buy: "Beli Disini",
+    delay: "",
+  },
+  {
+    id: 5,
+    image: Product5,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    price: "150k",
+    buy: "Beli Disini",
+    delay: "200",
+  },
+  {
+    id: 6,
+    image: Product6,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    price: "300k",
+    buy: "Beli Disini",
+    delay: "400",
+  },
+  {
+    id: 7,
+    image: Product7,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star-half-stroke",
+    price: "200k",
+    buy: "Beli Disini",
+    delay: "",
+  },
+  {
+    id: 8,
+    image: Product8,
+    star1: "fa-solid fa-star",
+    star2: "fa-solid fa-star",
+    star3: "fa-solid fa-star",
+    star4: "fa-solid fa-star",
+    star5: "fa-solid fa-star",
+    price: "900k",
+    buy: "Beli Disini",
+    delay: "200",
+  },
+  
+];
+
+
+export const testimonial = [
+  {
+    id: 1,
+    desc: "Apart from being an Entrepreneurship student, Khaira Putru is also part of thrivchaos podcast. Which, she serves as a content creator and host in our show.",
+    image: People1,
+    name: "Khaira Putri",
+    skill: "Host & Content Creator",
+  },
+  {
+    id: 2,
+    desc: "Apart from being a Business Law student, Vanesha Bella is also a part of thrivchaos podcast. In which, she serves as a content creator and host in our show.",
+    image: People2,
+    name: "Vanesha Bella",
+    skill: "Host & Content Creator",
+  },
+  {
+    id: 3,
+    desc: "Apart from being a Product Design student, Najwa Nabilah is also part of thrivchaos podcast. In which, she serves as Web Developer and Designer in our show.",
+    image: People3,
+    name: "Najwa Nabilah",
+    skill: "Web Dev & Designer",
+  },
+  {
+    id: 4,
+    desc: "Apart from being a Business Law student, Rivandi Firmansyah Aqilla is also part of thrivchaos podcast. In which, he serves as project manager and host in our show.",
+    image: People4,
+    name: "Rivandi Firmansyah Aqilla",
+    skill: "Project Manager",
+  },
+  {
+    id: 5,
+    desc: "Apart from being an accounting student, Marciano Reynald Eriyanto is also part of thrivchaos podcast. In which, he serves as a social media spesialist and editor in our show",
+    image: People5,
+    name: "Marciano Reynald Eriyanto",
+    skill: "Financial & Secretary",
+  },
+  {
+    id: 6,
+    desc: "Apart from being an architecture student, Rafaditya Devandra is also part of thrivchaos podcast. In which, he serves as a cameraman and editor in our show.",
+    image: People6,
+    name: "Rafaditya Devandra",
+    skill: "Cameramen & Editor",
+  },
+];
+
+export const dataSwiper = [
+  {
+    id: 1,
+    desc: "Apart from being an Entrepreneurship student, Khaira Putru is also part of thrivchaos podcast. Which, she serves as a content creator and host in our show.",
+    image: People1,
+    name: "Khaira Putri",
+    skill: "Host & Content Creator",
+  },
+  {
+    id: 2,
+    desc: "Apart from being a Business Law student, Vanesha Bella is also a part of thrivchaos podcast. In which, she serves as a content creator and host in our show.",
+    image: People2,
+    name: "Vanesha Bella",
+    skill: "Host & Content Creator",
+  },
+  {
+    id: 3,
+    desc: "Apart from being a Product Design student, Najwa Nabilah is also part of thrivchaos podcast. In which, she serves as Web Developer and Designer in our show.",
+    image: People3,
+    name: "Najwa Nabilah",
+    skill: "Web Dev & Designer",
+  },
+  {
+    id: 4,
+    desc: "Apart from being a Business Law student, Rivandi Firmansyah Aqilla is also part of thrivchaos podcast. In which, he serves as project manager and host in our show.",
+    image: People4,
+    name: "Rivandi Firmansyah Aqilla",
+    skill: "Project Manager & Host",
+  },
+  {
+    id: 5,
+    desc: "Apart from being an accounting student, Marciano Reynald Eriyanto is also part of thrivchaos podcast. In which, he serves as a social media spesialist and editor in our show",
+    image: People5,
+    name: "Marciano Reynald Eriyanto",
+    skill: "Social Media Spesialist & Editor",
+  },
+  {
+    id: 6,
+    desc: "Apart from being an architecture student, Rafaditya Devandra is also part of thrivchaos podcast. In which, he serves as a cameraman and editor in our show.",
+    image: People6,
+    name: "Rafaditya Devandra",
+    skill: "Cameramen & Editor",
+  },
+];
+
+export const faq = [
+  {
+    id: 1,
+    eventKey: 0,
+    title: "Podcast ini membahas tentang apa?",
+    desc: "Di era digital, media sosial membentuk opini publik di Indonesia. Tren seperti FOMO sering diikuti tanpa pemahaman mendalam, sementara isu penting jarang dibahas kritis. Podcast Thrivchaos hadir dengan pembahasan santai yang relatable, khususnya untuk gen Z.",
+  },
+  {
+    id: 2,
+    eventKey: 1,
+    title: "Kapan episode baru dirilis?",
+    desc: "Kami merilis episode baru setiap minggu, biasanya pada hari Jumat.",
+  },
+  {
+    id: 3,
+    eventKey: 2,
+    title: "Apakah saya bisa mengajukan pertanyaan atau topik untuk dibahas di podcast?",
+    desc: "Tentu saja! Kamu dapat mengajukan pertanyaan atau topik melalui menu Request & Buy pada website atau kolom komentar di YouTube Kami ya-!",
+  },
+  {
+    id: 4,
+    eventKey: 3,
+    title: "Apakah saya perlu membayar untuk mendengarkan podcast ini?",
+    desc: "Tidak, podcast kami gratis untuk dinikmati di YouTube.",
+  },
+  {
+    id: 5,
+    eventKey: 4,
+    title: "Bisakah saya mempromosikan produk melalui podcast ini?",
+    desc: "Tentu saja, jika Kamu ingin mempromosikan produk yang kamu jual, kami akan dengan senang hati mempromosikannya melalui video podcast YouTube Kami. Caranya kamu bisa email ke kontak kami atau klik menu Request & Buy pada website.",
+  },
+  {
+    id: 6,
+    eventKey: 5,
+    title: "Apakah podcast ini hanya teruntuk gen z saja?",
+    desc: "Oh Tentu Tidak, podcast kami cocok untuk semua kalangan usia/gen yang menyukai pembahasan isu-isu terkini dengan gaya santai dan menghibur.",
+  },
+  {
+    id: 7,
+    eventKey: 6,
+    title: "Apakah podcast ini memiliki tamu spesial?",
+    desc: "Ya, kami sering mengundang tamu spesial, mulai dari pakar di berbagai bidang hingga kreator konten untuk berbagi pandangan mereka.",
+  },
+  {
+    id: 8,
+    eventKey: 7,
+    title: "Bisakah saya menjadi tamu di podcast ini?",
+    desc: "Tentu saja, jika Anda memiliki cerita atau wawasan menarik untuk dibagikan, hubungi kami melalui email kami.",
+  },
+];
